@@ -1,0 +1,36 @@
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    background: #13181D;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    padding: 13px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}

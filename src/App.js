@@ -62,7 +62,7 @@ function App() {
 
   function onButtonSubmit() {
     setURL(input);
-    fetch('yourServerHere/imageurl', {
+    fetch('https://facerecognizer.herokuapp.com/imageurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -73,7 +73,7 @@ function App() {
     .then(
       function(response) {
         if (response) {
-          fetch('yourServerHere/image', {
+          fetch('https://facerecognizer.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -111,7 +111,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('yourServerHere/')
+    fetch('https://facerecognizer.herokuapp.com/')
     .then(response => response.json())
     .then(console.log)
    }, [])

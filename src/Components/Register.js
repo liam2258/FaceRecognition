@@ -20,7 +20,7 @@ function Register({onRouteChange, loadUser}) {
     }
 
     function onSubmitRegistration() {
-        fetch('yourServerHere/register', {
+        fetch('https://facerecognizer.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

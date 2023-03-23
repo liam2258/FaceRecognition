@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FaceRecognition/static/css/main.5a3b226f.css",
-    "main.js": "/FaceRecognition/static/js/main.f316e957.js",
+    "main.css": "/FaceRecognition/static/css/main.2578e383.css",
+    "main.js": "/FaceRecognition/static/js/main.52038699.js",
     "static/media/face-detection2.png": "/FaceRecognition/static/media/face-detection2.1133e1dfd5c084b10bf1.png",
-    "static/media/github2.png": "/FaceRecognition/static/media/github2.19fdc2bf1ca2537f5161.png",
+    "static/media/github.svg": "/FaceRecognition/static/media/github.8e356551d9f3d19b44d5d0beb5c2f60b.svg",
     "index.html": "/FaceRecognition/index.html",
-    "main.5a3b226f.css.map": "/FaceRecognition/static/css/main.5a3b226f.css.map",
-    "main.f316e957.js.map": "/FaceRecognition/static/js/main.f316e957.js.map"
+    "main.2578e383.css.map": "/FaceRecognition/static/css/main.2578e383.css.map",
+    "main.52038699.js.map": "/FaceRecognition/static/js/main.52038699.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a3b226f.css",
-    "static/js/main.f316e957.js"
+    "static/css/main.2578e383.css",
+    "static/js/main.52038699.js"
   ]
 }
